@@ -42,7 +42,15 @@
 			<ShowCommandBar>auto</ShowCommandBar>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="ТоварыКонтекстноеМеню" id="18"/>
-			<AutoCommandBar name="ТоварыКоманднаяПанель" id="19"/>
+			<AutoCommandBar name="ТоварыКоманднаяПанель" id="19">
+				<ChildItems>
+					<Button name="ТоварыПодобрать" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>Form.Command.ПодобратьТовары</CommandName>
+						<ExtendedTooltip name="ТоварыПодобратьРасширеннаяПодсказка" id="65"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
 			<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="20"/>
 			<SearchStringAddition name="ТоварыСтрокаПоиска" id="21">
 				<AdditionSource>
@@ -127,4 +135,15 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПодобратьТовары" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подобрать товары</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПодобратьТовары</Action>
+		</Command>
+	</Commands>
 </Form>
