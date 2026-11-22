@@ -260,6 +260,18 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>МиниСклад</Subsystem>
+			<SessionParameter>ДоступныйСклад</SessionParameter>
+			<Role>Администратор</Role>
+			<Role>Менеджер</Role>
+			<Role>Кладовщик</Role>
+			<Role>Гость</Role>
+			<CommonModule>ДоступПоСкладуСервер</CommonModule>
+			<CommonModule>ОбновлениеСлужебныхДанных</CommonModule>
+			<CommonModule>НастройкаРегламентныхЗаданий</CommonModule>
+			<ScheduledJob>ОбновлениеСостоянияСкладов</ScheduledJob>
+			<CommonCommand>ОбновитьСостояниеСкладов</CommonCommand>
+			<Catalog>НастройкиДоступаПользователей</Catalog>
+			<Catalog>СостояниеСкладов</Catalog>
 			<Catalog>Товары</Catalog>
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>Склады</Catalog>

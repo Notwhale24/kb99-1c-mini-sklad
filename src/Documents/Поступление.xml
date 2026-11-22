@@ -63,8 +63,8 @@
 			<RegisterRecords>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиТоваров</xr:Item>
 			</RegisterRecords>
-			<PostInPrivilegedMode>true</PostInPrivilegedMode>
-			<UnpostInPrivilegedMode>true</UnpostInPrivilegedMode>
+			<PostInPrivilegedMode>false</PostInPrivilegedMode>
+			<UnpostInPrivilegedMode>false</UnpostInPrivilegedMode>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<DataLockFields/>
 			<DataLockControlMode>Managed</DataLockControlMode>
