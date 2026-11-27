@@ -120,6 +120,13 @@
 		</right>
 	</object>
 	<object>
+		<name>HTTPService.УчебныйОбмен.URLTemplate.Товары.Method.СоздатьТовар</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Configuration.Конфигурация</name>
 		<right>
 			<name>Administration</name>
@@ -463,6 +470,13 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>HTTPService.УчебныйОбмен.URLTemplate.Товары.Method.ПолучитьТовары</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>
